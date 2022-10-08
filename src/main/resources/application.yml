@@ -2,8 +2,6 @@ spring:
   data:
     mongodb:
       uri: ${MONGODB_DATABASE_URL:mongodb+srv://pawan6186:AKNQzcWBpaYJ3aaW@cluster0.vx89hdm.mongodb.net/?retryWrites=true&w=majority}
-      auto-index-creation: true
-      database: file
   application:
     name: file-management
 
