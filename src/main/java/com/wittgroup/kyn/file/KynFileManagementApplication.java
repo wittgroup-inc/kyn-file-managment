@@ -10,10 +10,10 @@ import org.springframework.context.annotation.Bean;
 import java.io.IOException;
 
 @SpringBootApplication
-public class FileManagementApplication {
+public class KynFileManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FileManagementApplication.class, args);
+		SpringApplication.run(KynFileManagementApplication.class, args);
 
 	}
 
@@ -21,7 +21,7 @@ public class FileManagementApplication {
 	ImageKit getImageKit(){
 		ImageKit imageKit = ImageKit.getInstance();
 		try {
-			Configuration config = Utils.getSystemConfig(FileManagementApplication.class);
+			Configuration config = Utils.getSystemConfig(KynFileManagementApplication.class);
 			imageKit.setConfig(config);
 		} catch (IOException e) {
 			throw new RuntimeException(e);
