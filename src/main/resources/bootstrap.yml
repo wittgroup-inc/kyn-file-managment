@@ -2,3 +2,23 @@ spring:
   cloud:
     config:
       uri: http://localhost:8888
+  data:
+    mongodb:
+      uri: ${MONGODB_DATABASE_URL:mongodb+srv://pawan6186:AKNQzcWBpaYJ3aaW@cluster0.vx89hdm.mongodb.net/?retryWrites=true&w=majority}
+  application:
+    name: file-management
+
+eureka:
+  instance:
+    hostname: localhost
+
+server:
+  port: 8083
+
+springdoc:
+  pathsToMatch: /api/**
+
+imageKit:
+  urlEndpoint: https://ik.imagekit.io/kyn/
+  privateKey: private_BeoDJtLWAOEDMYTDpsqgQhzhCGw=
+  publicKey: public_nu38a0MxwhoIm/Ql8mwGl8yxvII=
