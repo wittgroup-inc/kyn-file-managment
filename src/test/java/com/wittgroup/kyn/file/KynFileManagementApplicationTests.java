@@ -1,4 +1,4 @@
-package com.wittgroup.kynfile;
+package com.wittgroup.kyn.file;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
