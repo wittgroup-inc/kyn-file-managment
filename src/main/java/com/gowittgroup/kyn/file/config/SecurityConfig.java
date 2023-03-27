@@ -1,4 +1,4 @@
-package com.wittgroup.kyn.file.config;
+package com.gowittgroup.kyn.file.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +12,7 @@ import org.springframework.security.web.SecurityFilterChain;
 public class SecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
-        httpSecurity.authorizeRequests(authorize -> authorize.anyRequest().authenticated()).oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
+        httpSecurity.authorizeRequests(authorize -> authorize.anyRequest().permitAll()).oauth2ResourceServer(OAuth2ResourceServerConfigurer::jwt);
         return httpSecurity.build();
     }
 }

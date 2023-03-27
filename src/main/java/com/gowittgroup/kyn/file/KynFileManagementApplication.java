@@ -1,4 +1,4 @@
-package com.wittgroup.kyn.file;
+package com.gowittgroup.kyn.file;
 
 import io.imagekit.sdk.ImageKit;
 import io.imagekit.sdk.config.Configuration;
@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-
-import java.io.IOException;
 
 @SpringBootApplication
 public class KynFileManagementApplication {

@@ -1,4 +1,4 @@
-package com.wittgroup.kyn.file.utils;
+package com.gowittgroup.kyn.file.utils;
 
 import org.bson.Document;
 import org.springframework.core.convert.converter.Converter;

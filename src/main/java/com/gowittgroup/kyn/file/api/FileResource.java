@@ -1,8 +1,8 @@
-package com.wittgroup.kyn.file.api;
+package com.gowittgroup.kyn.file.api;
 
-import com.wittgroup.kyn.file.models.File;
-import com.wittgroup.kyn.file.models.UploadFileRequest;
-import com.wittgroup.kyn.file.services.FileService;
+import com.gowittgroup.kyn.file.models.File;
+import com.gowittgroup.kyn.file.models.UploadFileRequest;
+import com.gowittgroup.kyn.file.services.FileService;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

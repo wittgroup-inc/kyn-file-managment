@@ -1,8 +1,8 @@
-package com.wittgroup.kyn.file.services;
+package com.gowittgroup.kyn.file.services;
 
-import com.wittgroup.kyn.file.db.entities.FileEntity;
-import com.wittgroup.kyn.file.db.repositories.FileRepository;
-import com.wittgroup.kyn.file.models.File;
+import com.gowittgroup.kyn.file.db.entities.FileEntity;
+import com.gowittgroup.kyn.file.db.repositories.FileRepository;
+import com.gowittgroup.kyn.file.models.File;
 import io.imagekit.sdk.ImageKit;
 import io.imagekit.sdk.exceptions.*;
 import io.imagekit.sdk.models.FileCreateRequest;

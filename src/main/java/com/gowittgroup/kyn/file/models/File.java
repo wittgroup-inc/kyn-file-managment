@@ -1,4 +1,4 @@
-package com.wittgroup.kyn.file.models;
+package com.gowittgroup.kyn.file.models;
 
 import lombok.Getter;
 import lombok.Setter;

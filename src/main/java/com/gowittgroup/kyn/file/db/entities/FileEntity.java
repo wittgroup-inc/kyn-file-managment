@@ -1,4 +1,4 @@
-package com.wittgroup.kyn.file.db.entities;
+package com.gowittgroup.kyn.file.db.entities;
 
 import lombok.Getter;
 import lombok.Setter;

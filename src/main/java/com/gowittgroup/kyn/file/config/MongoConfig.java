@@ -1,7 +1,7 @@
-package com.wittgroup.kyn.file.config;
+package com.gowittgroup.kyn.file.config;
 
-import com.wittgroup.kyn.file.utils.MongoOffsetDateTimeReader;
-import com.wittgroup.kyn.file.utils.MongoOffsetDateTimeWriter;
+import com.gowittgroup.kyn.file.utils.MongoOffsetDateTimeReader;
+import com.gowittgroup.kyn.file.utils.MongoOffsetDateTimeWriter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.auditing.DateTimeProvider;
