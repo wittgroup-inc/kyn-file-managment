@@ -19,7 +19,7 @@ import java.util.Optional;
 
 
 @Configuration
-@EnableMongoRepositories("com.wittgroup.kyn.file.db.repositories")
+@EnableMongoRepositories("com.gowittgroup.kyn.file.db.repositories")
 @EnableMongoAuditing(dateTimeProviderRef = "auditingDateTimeProvider")
 public class MongoConfig {
 
