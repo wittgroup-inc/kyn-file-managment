@@ -1,4 +1,4 @@
-package com.wittgroup.kyn.file.config;
+package com.gowittgroup.kyn.file.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.SerializationFeature;

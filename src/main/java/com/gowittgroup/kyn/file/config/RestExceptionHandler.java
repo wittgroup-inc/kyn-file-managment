@@ -1,7 +1,7 @@
-package com.wittgroup.kyn.file.config;
+package com.gowittgroup.kyn.file.config;
 
-import com.wittgroup.kyn.file.models.ErrorResponse;
-import com.wittgroup.kyn.file.models.FieldError;
+import com.gowittgroup.kyn.file.models.ErrorResponse;
+import com.gowittgroup.kyn.file.models.FieldError;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

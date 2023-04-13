@@ -1,7 +1,7 @@
-package com.wittgroup.kyn.file.config;
+package com.gowittgroup.kyn.file.config;
 
-import com.wittgroup.kyn.file.utils.MongoOffsetDateTimeReader;
-import com.wittgroup.kyn.file.utils.MongoOffsetDateTimeWriter;
+import com.gowittgroup.kyn.file.utils.MongoOffsetDateTimeReader;
+import com.gowittgroup.kyn.file.utils.MongoOffsetDateTimeWriter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.auditing.DateTimeProvider;
@@ -19,7 +19,7 @@ import java.util.Optional;
 
 
 @Configuration
-@EnableMongoRepositories("com.wittgroup.kyn.file.db.repositories")
+@EnableMongoRepositories("com.gowittgroup.kyn.file.db.repositories")
 @EnableMongoAuditing(dateTimeProviderRef = "auditingDateTimeProvider")
 public class MongoConfig {
 

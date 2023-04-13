@@ -1,6 +1,6 @@
-package com.wittgroup.kyn.file.db.repositories;
+package com.gowittgroup.kyn.file.db.repositories;
 
-import com.wittgroup.kyn.file.db.entities.FileEntity;
+import com.gowittgroup.kyn.file.db.entities.FileEntity;
 import org.springframework.data.mongodb.core.mapping.event.AbstractMongoEventListener;
 import org.springframework.data.mongodb.core.mapping.event.BeforeConvertEvent;
 import org.springframework.stereotype.Component;
